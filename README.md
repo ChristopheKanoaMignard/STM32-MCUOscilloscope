@@ -33,15 +33,15 @@ $$\begin{aligned}
 \end{aligned}$$
 
 To get my oscilloscope working initially, I hardcoded these values; but for extra flexibility and functionality, I quickly switched to handling this in code with editable variables.
-
+```Ruby
 void CalculateLinearMapVars(uint16_t minPixelPosX, uint16_t maxPixelPosX, double minValueX, double maxValueX, uint16_t minPixelPosY, uint16_t maxPixelPosY, double minValueY, double maxValueY, double linearMapVars[])
 {
-	linearMapVars[1] = (maxValueX*minPixelPosX - maxPixelPosX*minValueX) / (maxValueX - minValueX);
-	linearMapVars[2] = (maxPixelPosX - minPixelPosX)                     / (maxValueX - minValueX);
-	linearMapVars[3] = (maxValueX*minPixelPosY - maxPixelPosX*minValueY) / (maxValueY - minValueY);
-	linearMapVars[4] = (maxPixelPosY - minPixelPosY)                     / (maxValueY - minValueY);
+	linearMapVars[1] = (maxValueX*minPixelPosX - maxPixelPosX*minValueX) / (maxValueX - minValueX);	#w_x
+	linearMapVars[2] = (maxPixelPosX - minPixelPosX)                     / (maxValueX - minValueX);	#b_x
+	linearMapVars[3] = (maxValueX*minPixelPosY - maxPixelPosX*minValueY) / (maxValueY - minValueY);	#w_y
+	linearMapVars[4] = (maxPixelPosY - minPixelPosY)                     / (maxValueY - minValueY);	#b_y
 }
-
+```
 
 ### Aliasing
 Like all digital oscilloscopes, this one is susceptible to aliasing. Aliasing is produced when a signal's frequency is close to a whole number multiple of the sampling rate. The signal is sampled in one location, and the next sample is actually on the next period but has a magnitude near to what it should have been. This effect can be seen below. 
