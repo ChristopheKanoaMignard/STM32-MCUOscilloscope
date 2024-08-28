@@ -1,0 +1,20 @@
+VisualGDB/Debug/__BSP_ROOT__/STM32F4xxxx/BSP/Components/ili9341/ili9341.o: \
+ C:/Users/chris/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/BSP/Components/ili9341/ili9341.c \
+ C:/Users/chris/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/BSP/Components/ili9341/ili9341.h \
+ c:\users\chris\appdata\local\visualgdb\embeddedbsps\arm-eabi\com.sysprogs.arm.stm32\stm32f4xxxx\bsp\components\common\lcd.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_default_types.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\features.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\_newlib_version.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_intsup.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_stdint.h
+C:/Users/chris/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/BSP/Components/ili9341/ili9341.h:
+c:\users\chris\appdata\local\visualgdb\embeddedbsps\arm-eabi\com.sysprogs.arm.stm32\stm32f4xxxx\bsp\components\common\lcd.h:
+c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\stdint.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_default_types.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\features.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\_newlib_version.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_intsup.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_stdint.h:
